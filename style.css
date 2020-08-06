@@ -1,0 +1,26 @@
+main{
+    text-align: center;
+}
+
+#teamTable{
+    margin: 30px auto;
+    text-align: center;
+}
+
+#teamTable td{
+    padding: 3px 30px;
+}
+
+#teamTable tbody tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+#teamTable tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+#teamTable thead tr{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
